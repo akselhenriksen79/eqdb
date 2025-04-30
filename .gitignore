@@ -1,0 +1,12 @@
+# Python files (not needed for PHP deployment)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Keep the database
+# everquest_items.db
+
+# Flask templates (not needed for PHP deployment)
+templates/

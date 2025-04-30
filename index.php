@@ -5,6 +5,10 @@ function getConnection() {
     return $db;
 }
 
+if(class_exists('SQLite3')){
+	echo "SQLite3 is available";
+}
+
 // Get page from URL
 $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 
